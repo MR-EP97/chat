@@ -2,7 +2,7 @@
 
 ## About The Project
 
-A simple project demonstrating WebSocket functionality built with Reverb.
+A simple project is demonstrating WebSocket functionality built with Reverb.
 You can send messages to a private channel via both the command line and the view. These messages are visible to the
 viewer at the "/dashboard" route.
 Note that the user must be authenticated to access this route.
@@ -13,9 +13,6 @@ Note that the user must be authenticated to access this route.
 
 * <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" />   
 * <img src="https://img.shields.io/badge/Livewire-4e56a6?style=for-the-badge&logo=livewire&logoColor=white" />
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- GETTING STARTED -->
@@ -62,5 +59,3 @@ php artisan send:message
 command to send your message via the CLI.
 
 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
