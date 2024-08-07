@@ -9,7 +9,7 @@ new class extends Component {
      */
     public array $messages = [];
     public string $message = '';
-    public Room $room;
+//    public Room $room;
 
     public function addMessage(): void
     {
@@ -18,7 +18,7 @@ new class extends Component {
         $this->reset('message');
     }
 
-    #[\Livewire\Attributes\On('echo-private:messages.room.{room.id},MessageSent')]
+    #[\Livewire\Attributes\On('echo-private:messages,MessageSent')]
     public function onMessageSent($event)
     {
         $this->messages[] = $event;
