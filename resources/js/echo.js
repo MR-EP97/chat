@@ -1,6 +1,7 @@
 import Echo from 'laravel-echo';
 
 import Pusher from 'pusher-js';
+
 window.Pusher = Pusher;
 
 window.Echo = new Echo({
@@ -13,3 +14,7 @@ window.Echo = new Echo({
     enabledTransports: ['ws', 'wss'],
 });
 
+window.Echo.channel('messages')
+    .listen('MessageSent', (e) => {
+        console.log(e.name)
+    })
