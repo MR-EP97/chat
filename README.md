@@ -11,7 +11,7 @@ Note that the user must be authenticated to access this route.
 
 ### Built With
 
-* [![Laravel][Laravel.com]][Laravel-url]
+* <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" />   
 * <img src="https://img.shields.io/badge/Livewire-4e56a6?style=for-the-badge&logo=livewire&logoColor=white" />
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
